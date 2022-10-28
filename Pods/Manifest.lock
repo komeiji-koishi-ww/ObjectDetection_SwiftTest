@@ -1,0 +1,28 @@
+PODS:
+  - SnapKit (5.6.0)
+  - TensorFlowLiteC (2.3.0):
+    - TensorFlowLiteC/Core (= 2.3.0)
+  - TensorFlowLiteC/Core (2.3.0)
+  - TensorFlowLiteSwift (2.3.0):
+    - TensorFlowLiteSwift/Core (= 2.3.0)
+  - TensorFlowLiteSwift/Core (2.3.0):
+    - TensorFlowLiteC (= 2.3.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - TensorFlowLiteSwift (~> 2.3.0)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TensorFlowLiteC: 51f50caf5777f740a70e2c1a5dbdc149e7aeb50b
+  TensorFlowLiteSwift: fb152cc1eec36b25b03a23c07f5d58113170af58
+
+PODFILE CHECKSUM: 163a4e078ce9699f202c60091a7034f913918869
+
+COCOAPODS: 1.11.3
